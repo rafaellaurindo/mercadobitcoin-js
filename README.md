@@ -134,7 +134,7 @@ If this project have helped you in any way, consider buying me a :coffee:
 
 Using Paypal:
 
-<a href="https://www.buymeacoffee.com/rafaellaurindo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 140px !important;" ></a>
+<a href="https://www.buymeacoffee.com/rafaellaurindo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" style="height: 47px !important;width: 217px !important;" ></a>
 
 Or using Bitcoin: 1McMwihX3D2gwQqo3F9ez9namd2AB7U53B
 
