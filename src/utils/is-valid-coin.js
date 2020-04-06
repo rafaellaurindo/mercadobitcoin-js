@@ -1,4 +1,4 @@
-const { VALID_COINS } = require('../constants');
+const { VALID_COINS } = require("../constants");
 
 /**
  * Check if Coin is a Valid Coin
@@ -7,7 +7,7 @@ const { VALID_COINS } = require('../constants');
  * @returns {boolean} - Is valid coin
  */
 const isValidCoin = coin => {
-  return typeof coin === 'string' && VALID_COINS.includes(coin.toUpperCase());
+  return typeof coin === "string" && VALID_COINS.includes(coin.toUpperCase());
 };
 
 module.exports = isValidCoin;

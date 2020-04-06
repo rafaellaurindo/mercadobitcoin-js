@@ -1,10 +1,10 @@
-const axios = require('axios');
+const axios = require("axios");
 
-const isValidCoin = require('../utils/is-valid-coin');
-const { API_BASE_URL } = require('../constants');
+const isValidCoin = require("../utils/is-valid-coin");
+const { API_BASE_URL } = require("../constants");
 
 axios.default.interceptors.request.use(config => {
-  config.headers = { Accept: 'application/json' };
+  config.headers = { Accept: "application/json" };
   config.baseURL = API_BASE_URL;
   return config;
 });
@@ -19,7 +19,7 @@ axios.default.interceptors.request.use(config => {
  *
  * @throws {Error} If coin parameter is not a valid Acronym or the digital currency
  */
-const api = async (method = '', coin = '', optionals = '') => {
+const api = async (method = "", coin = "", optionals = "") => {
   if (!isValidCoin(coin)) {
     throw new Error(`${coin} is not a valid coin!`);
   }
