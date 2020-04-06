@@ -1,4 +1,4 @@
-# Mercado Bitcoin JS :currency_exchange
+# Mercado Bitcoin JS :currency_exchange:
 
 > Promise-based wrapper for Mercado Bitcoin API.
 
@@ -122,7 +122,7 @@ Output:
 
 ## Meta
 
-Rafael Laurindo – [@rafaellauindo](https://linkedin.com/in/rafaellaurindo) – eu@rafaellaurindo.com.br
+Rafael Laurindo – [@rafaellaurindo](https://linkedin.com/in/rafaellaurindo) – eu@rafaellaurindo.com.br
 
 Distributed under the MIT license. See [LICENSE](https://github.com/rafaellaurindo/mercadobitcoin-js/blob/master/LICENSE) for more information.
 
@@ -130,11 +130,11 @@ Distributed under the MIT license. See [LICENSE](https://github.com/rafaellaurin
 
 ## Donation
 
-If this project have helped you in any way, consider buying me a :coffe
+If this project have helped you in any way, consider buying me a :coffee:
 
 Using Paypal:
 
-<a href="https://www.buymeacoffee.com/rafaellaurindo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/rafaellaurindo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 140px !important;" ></a>
 
 Or using Bitcoin: 1McMwihX3D2gwQqo3F9ez9namd2AB7U53B
 
@@ -142,7 +142,7 @@ Or using Bitcoin: 1McMwihX3D2gwQqo3F9ez9namd2AB7U53B
 
 ## Contributing
 
-1. Fork it (<https://github.com/rafaelaurindo/mercadobitcoin-js/fork>)
+1. Fork it (<https://github.com/rafaellaurindo/mercadobitcoin-js/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
