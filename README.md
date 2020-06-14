@@ -116,6 +116,8 @@ Output:
 
 ## Release History
 
+- 1.2.0:
+  - Using `node-fetch` instead of `axios` to make the lib lighter.
 - 1.0.1:
   - Syntax changes.
 - 1.0.0:
