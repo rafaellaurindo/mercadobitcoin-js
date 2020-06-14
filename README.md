@@ -116,29 +116,31 @@ Output:
 
 ## Release History
 
+- 1.2.0:
+  - Using `node-fetch` instead of `axios` to make the lib lighter.
+- 1.0.1:
+  - Syntax changes.
 - 1.0.0:
   - Supports Promise and async/await
   - Supports all Mercado Bitcoin Data API methods
 
 ## Meta
 
-Rafael Laurindo – [@rafaellaurindo](https://linkedin.com/in/rafaellaurindo) – eu@rafaellaurindo.com.br
+Rafael Laurindo – [@rafaellaurindo](https://linkedin.com/in/rafaellaurindo) – eu@rafaellaurindo.dev
 
 Distributed under the MIT license. See [LICENSE](https://github.com/rafaellaurindo/mercadobitcoin-js/blob/master/LICENSE) for more information.
 
-[https://github.com/rafaellaurindo](https://github.com/rafaellaurindo/)
+[https://rafaellaurindo.dev](https://rafaellaurindo.dev)
 
-## Donation
+## Donations are welcome!
 
 If this project have helped you in any way, consider buying me a :coffee:
 
-Using Paypal:
+With Paypal:
 
-<a href="https://www.buymeacoffee.com/rafaellaurindo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" style="height: 47px !important;width: 217px !important;" ></a>
+<a href='https://ko-fi.com/M4M61SK64' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-Or using Bitcoin: 1McMwihX3D2gwQqo3F9ez9namd2AB7U53B
-
-![My Bitcoin Wallet](https://i.imgur.com/JIS5b8w.png)
+Or with Bitcoin: 1McMwihX3D2gwQqo3F9ez9namd2AB7U53B
 
 ## Contributing
 

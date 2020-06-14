@@ -1,13 +1,12 @@
-const axios = require("axios");
+const fetch = require("node-fetch");
 
-const isValidCoin = require("../utils/is-valid-coin");
 const { API_BASE_URL } = require("../constants");
+const isValidCoin = require("../utils/is-valid-coin");
 
-axios.default.interceptors.request.use(config => {
-  config.headers = { Accept: "application/json" };
-  config.baseURL = API_BASE_URL;
-  return config;
-});
+/**
+ * @const {string} HEADERS request headers.
+ */
+const HEADERS = { Accept: "application/json" };
 
 /**
  * Default Mercado Bitcoin API Wrapper Requests
@@ -17,17 +16,21 @@ axios.default.interceptors.request.use(config => {
  * @param {string} optionals - Optionals Request Data
  * @returns {Object}
  *
- * @throws {Error} If coin parameter is not a valid Acronym or the digital currency
+ * @throws {Error} If coin parameter is not a valid Acronym or the digital currency.
  */
 const api = async (method = "", coin = "", optionals = "") => {
   if (!isValidCoin(coin)) {
     throw new Error(`${coin} is not a valid coin!`);
   }
 
-  const requestUrl = `${coin}/${method}/${optionals}`;
-  const { data: response } = await axios.get(requestUrl);
-
-  return response;
+  return new Promise((resolve, reject) => {
+    fetch(`${API_BASE_URL}/${coin}/${method}/${optionals}`, {
+      headers: HEADERS,
+      method: "GET"
+    })
+      .then(response => resolve(response.json()))
+      .catch(reject);
+  });
 };
 
 module.exports = api;

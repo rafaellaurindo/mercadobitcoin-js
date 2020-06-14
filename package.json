@@ -27,7 +27,11 @@
     "ripple",
     "trading"
   ],
-  "author": "Rafael Laurindo <https://rafaellaurindo.com.br>",
+  "author": {
+    "name": "Rafael Laurindo",
+    "email": "eu@rafaellaurindo.dev",
+    "url": "https://rafaellaurindo.dev/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rafaellaurindo/mercadobitcoin-js/issues"
@@ -39,6 +43,6 @@
     "prettier": "^1.16.4"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "node-fetch": "^2.6.0"
   }
 }
